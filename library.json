@@ -1,0 +1,14 @@
+{
+  "name": "TM1637-OSL40391IX",
+  "keywords": "LED, TM1637, OSL40391IX",
+  "description": "Library for using OSL40391IX with TM1637.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iput2020-kkudo/TM1637-OSL40391IX"
+  },
+  "frameworks": "arduino",
+  "platforms": [
+    "atmelavr",
+    "espressif"
+  ]
+}
