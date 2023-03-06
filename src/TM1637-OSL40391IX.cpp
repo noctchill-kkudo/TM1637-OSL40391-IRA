@@ -191,3 +191,4 @@ void TM1637OSL40391IRA::clear()
        stop();
     }
 }
+
