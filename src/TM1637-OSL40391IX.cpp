@@ -160,6 +160,7 @@ TM1637OSL40391IRA::TM1637OSL40391IRA(int pinCLK, int pinDIO)
     pinMode(mem_pinDIO, INPUT);
     digitalWrite(mem_pinCLK, LOW);
     digitalWrite(mem_pinDIO, LOW);
+    TM1637OSL40391IRA::clear();
 }
 
 void TM1637OSL40391IRA::display(int segment, int address, int brightness)
@@ -190,12 +191,3 @@ void TM1637OSL40391IRA::clear()
        stop();
     }
 }
-
-
-
-
-
-
-
-
-

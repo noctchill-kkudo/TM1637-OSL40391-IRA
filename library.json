@@ -4,7 +4,7 @@
   "description": "Library for using OSL40391IX with TM1637.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/iput2020-kkudo/TM1637-OSL40391IX"
+    "url": "https://github.com/noctchill-kkudo/TM1637-OSL40391-IRA"
   },
   "frameworks": "arduino",
   "platforms": [
